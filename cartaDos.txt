@@ -1,1 +1,2 @@
-Ahora yo trabajo en Git para mantener seguro mi código fuente
+Ahora yo trabajo en Git para mantener seguro mi código fuente.
+Erik estuvo aqui

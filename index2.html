@@ -26,10 +26,23 @@
 
     }
 
-    .subtitulo{
+    .subtitulo {
         color: white;
 
     }
+
+    .texto {
+        color: white;
+        font-family: 'GillSansNova-SemiBold';
+        font-size: x-large;
+    }
+
+
+    @font-face {
+        font-family: GillSansNova-SemiBold;
+        src: url(GillSansNova-SemiBold.tff);
+    }
+
     @font-face {
         font-family: Spider-Man;
         src: url(Spider-Man.tff);
@@ -50,6 +63,7 @@
 
     <nav>
         <ul class="subtitulo">
+            <li><a href="index.html">Pagina Principal</a> </li>
             <li>Fotos</li>
             <li>Videos</li>
             <li>Favoritos</li>
@@ -61,22 +75,22 @@
     <hr>
     <section>
         <center>
-            <h2 class="subtitulo">Spider-Man</h2>
+            <h2 class="texto">Spider-Man</h2>
         </center>
-        <h2 style="color:white">Spider-Man (2002)</h2>
+        <h2 class="texto">Spider-Man (2002)</h2>
 
-        <p style="color:white">Luego de sufrir la picadura de una araña genéticamente modificada, un estudiante de
+        <p class="texto">Luego de sufrir la picadura de una araña genéticamente modificada, un estudiante de
             secundaria tímido y torpe
             adquiere increíbles capacidades como arácnido. Pronto comprenderá que su misión es utilizarlas para luchar
             contra el mal y defender a sus vecinos
         </p>
-        <h2 style="color:white">Spider-Man 2 (2004)</h2>
-        <p style="color:white">Como si Peter Parker no tuviera suficiente con sus propios problemas, estudios y su amor
+        <h2 class="texto">Spider-Man 2 (2004)</h2>
+        <p class="texto">Como si Peter Parker no tuviera suficiente con sus propios problemas, estudios y su amor
             por Mary Jane, ahora
             tiene que salvar a la ciudad de un nuevo villano, el Doctor Octopus.
         </p>
-        <h2 style="color:white">Spider-Man 3 (2007)</h2>
-        <p style="color:white">Peter Parker sufre una terrible transformación cuando su traje se vuelve negro y libera
+        <h2 class="texto">Spider-Man 3 (2007)</h2>
+        <p class="texto">Peter Parker sufre una terrible transformación cuando su traje se vuelve negro y libera
             su personalidad
             oscura y vengativa. Afrontará el mayor desafío de su vida al tener que redescubrir la humildad y compasión
             que lo hacen ser quien es: un héroe.
@@ -87,18 +101,18 @@
     <hr>
     <section>
         <center>
-            <h2 style="color:white">The Amazing Spider-Man</h2>
+            <h2 class="texto">The Amazing Spider-Man</h2>
         </center>
-        <h2 style="color:white">The Amazing Spider-Man (2012)</h2>
-        <p style="color:white">Como la mayoría de los adolescentes de su edad, Peter está intentando descubrir quién es
+        <h2 class="texto">The Amazing Spider-Man (2012)</h2>
+        <p class="texto">Como la mayoría de los adolescentes de su edad, Peter está intentando descubrir quién es
             y cómo ha llegado a
             ser lo que es. En su viaje para atar los cabos de su pasado, descubre un secreto familiar que finalmente
             dará forma a su destino como Spiderman.
 
         </p>
 
-        <h2 style="color:white">The Amazing Spider-Man 2 (2014)</h2>
-        <p style="color:white">La vida de Peter Parker no es como la de cualquier adolescente. El joven compagina su
+        <h2 class="texto">The Amazing Spider-Man 2 (2014)</h2>
+        <p class="texto">La vida de Peter Parker no es como la de cualquier adolescente. El joven compagina su
             tiempo luchando contra
             el mal convertido en Spider-Man y estudiando en el instituto junto con la chica a la que quiere, Gwen.
             Aunque Peter le prometió al padre de la joven que se alejaría de ella para protegerla, es una promesa que no
@@ -106,20 +120,20 @@
             Harry Osborn.
 
         </p>
-
+        <hr>
         <aside>
-            <blockquote>
+            <blockquote class="texto">
                 Mensaje numero 1
             </blockquote>
 
-            <blockquote>
+            <blockquote class="texto">
                 Mensaje numero 2
             </blockquote>
 
         </aside>
 
         <footer>
-            <p>Todos los derechos reservados UNAM Aragon</p>
+            <p class="texto">Todos los derechos reservados UNAM Aragon</p>
         </footer>
 
 </body>

@@ -1,5 +1,5 @@
 body{
-    background-image: url("/Recursos/Media/10.jpg");
+    background-image: url("https://live.staticflickr.com/7853/32944951388_ed4c299ec1_b.jpg");
     background-size: cover;
     margin:0;
     height: 100vh;
@@ -59,7 +59,7 @@ body{
 }
 
 .icono{
-    list-style-image: url(/Recursos/Media/logotipo-de-github.png);
+    list-style-image: url(/Recursos/Media/01.png);
     
 }
 .icono3{

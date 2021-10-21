@@ -58,7 +58,17 @@ body{
     border-radius: 20px;
 }
 
-
+.icono{
+    list-style-image: url(/Recursos/Media/logotipo-de-github.png);
+    
+}
+.icono3{
+    list-style-image: url(/Recursos/Media/FES\ ARAGON\ ICON.png);
+    
+}
+.icono2{
+    list-style-image: url(/Recursos/Media/580b57fcd9996e24bc43c540.png);
+}
     
 
 

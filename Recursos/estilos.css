@@ -10,9 +10,14 @@ body{
     
     
 }
+table{
+    width: 100%;
+}
 
 .fondoblanco{
     background-color:white;
+    width: 100%;
+
 }
 .fondoazul{
     background-color:#06b3fa ;
@@ -58,6 +63,7 @@ body{
 .bordeblanco{
     border:10px solid white;
     border-radius: 20px;
+    width: 100%;
 }
 
 .icono{
